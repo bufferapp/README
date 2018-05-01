@@ -1,0 +1,8 @@
+ToDo - Things to Document:
+
+* AWS Key Rotations: Adnan to document the ideal process. Teams Document the QA
+Teams are responsible for their own key rotation
+Teams document their own key process following Adnan's template
+Adnan is accountable that keys get regularly rotated. He'll be emailing you!
+
+* Buffer Dev setup & Debugging: 
