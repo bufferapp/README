@@ -1,8 +1,31 @@
 ToDo - Things to Document:
 
+* Code of Conduct 
+
+* Async Communication 
+
 * AWS Key Rotations: Adnan to document the ideal process. Teams Document the QA
 Teams are responsible for their own key rotation
 Teams document their own key process following Adnan's template
 Adnan is accountable that keys get regularly rotated. He'll be emailing you!
 
+* Helm Adoption
+How this works & Why 
+Who to talk to about this. 
+
 * Buffer Dev setup & Debugging: 
+- Need immediate help? #eng-local-dev in Slack 
+
+* Security
+
+
+* Data 
+- How to track data 
+- Where to find data team stuff
+- How to learn about data & how we use data at Buffer 
+
+* Eng Openness and Sharing knowledge:
+- What's ok to share
+- Our Blog and YouTube Channel 
+- Snackchats 
+- Conference Talks 
