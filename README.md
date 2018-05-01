@@ -2,7 +2,7 @@
 Welcome, friend! 👋 This is the Buffer Engineering Team Wiki. It's is a living, evolving project that exists to guide you through all the info you need to know to be a happy and productive Buffer Engineer. It's a handy reference whether you're new, changing teams, or just like breaking down knowledge silos!  
 
 ## Contributing to the Wiki
-All contributions would be glorious. An out of date wiki is so much worse than the occasional misleading new contribution, so please *err or the side of sharing your knowledge*.
+All contributions would be glorious. An out of date wiki is so much worse than the occasional misleading new contribution, so please **err on the side of sharing your knowledge**.
 
 Wikis are best when they're living and evolving. As an async, remote team, let's create a wiki that reflects our commitment to this way of work! 🌍
 
