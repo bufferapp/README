@@ -8,6 +8,6 @@ Wikis are best when they're living and evolving. As an async, remote team, let's
 
 Here's how to contribute!
 1. Be the change you want to see on the wiki ✨ Just edit it directly on Github ✏️
-2. Got more of a suggestion than an immediate change? Open a PR 🙋🏽‍♀️
+2. Got more of a suggestion than an immediate change? Open a PR 🙋🏽‍
 3. Not sure what the right info is, but you can see the current docs are wrong? Open an issue 🤔
 4. Got lots to share? Awesome!🦄 Work on this wiki locally: `$ git clone git@github.com:bufferapp/README.git`
