@@ -18,6 +18,12 @@ Who to talk to about this.
 
 * Security
 
+* Managing Sensitive Data 
+- Please use 1TimeSecret
+- Please use a password Manager like 1Password (you can expense this!) 
+- Adnan has a encryption tool for other things
+- Make sure data that could identify individual users (names, emails, twitter handles, etc) is never stored on your local machine
+
 
 * Data 
 - How to track data 
