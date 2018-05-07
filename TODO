@@ -8,6 +8,7 @@ ToDo - Things to Document:
 Teams are responsible for their own key rotation
 Teams document their own key process following Adnan's template
 Adnan is accountable that keys get regularly rotated. He'll be emailing you!
+Here is an example: https://paper.dropbox.com/doc/Image-resizer-worker-QA-checklist-for-rotating-AWS-keys-ci90WDwwAWOA937ZKzOyM
 
 * Product overview 
 - Buffer web and New Publish 
