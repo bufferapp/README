@@ -2,7 +2,7 @@
 
 Here you can find information related to the Buffer Data Team. If you have questions, comments, or suggestions, please [open an issue](https://github.com/bufferapp/data-team/issues) and ping someone in the [Data Team](https://github.com/orgs/bufferapp/teams/data/members).
 
-If you spot something out of date or incomplete, reach out to @davidgasquez and let him know! :smile:
+If you spot something out of date or incomplete, reach out to [@davidgasquez](https://github.com/davidgasquez/) and let him know! :smile:
 
 ## Mission
 
