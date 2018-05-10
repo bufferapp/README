@@ -6,6 +6,13 @@
 
 ## Contents
 
+* [Installation and usage](#installation-and-usage)
+  * [Installation](#installation)
+  * [Usage](#usage)
+* [Intro and motivation](#intro-and-motivation)
+  * [How bufcrypt helps with documentation](#how-bufcrypt-helps-with-documentation)
+* [How to use bufcrypt in documentation](#how-bufcrypt-helps-with-documentation)
+
 ## Installation and usage
 
 ### Installation
