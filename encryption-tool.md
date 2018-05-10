@@ -4,14 +4,22 @@
 
 <secret>`longbase64encodedencryptedvaluewhichwillmakenosense`</secret>
 
+
 ## Contents
 
+* [Before you use the tool](#before-you-use-the-tool)
 * [Installation and usage](#installation-and-usage)
   * [Installation](#installation)
   * [Usage](#usage)
 * [Intro and motivation](#intro-and-motivation)
   * [How bufcrypt helps with documentation](#how-bufcrypt-helps-with-documentation)
 * [How to use bufcrypt in documentation](#how-bufcrypt-helps-with-documentation)
+
+## Before you use the tool
+
+You'll need an AWS key setup on your machine to use the `bufcrypt` encryption
+tool. Additionally the key will need permission to access the KMS key used.
+Ping Adnan to help you get setup with this if you need it.
 
 ## Installation and usage
 
