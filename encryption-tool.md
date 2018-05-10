@@ -2,8 +2,7 @@
 
 `bufcrypt encrypt "mysupersecret"`
 
-<secret>`longbase64encodedencryptedvaluewhichwillmakenosense`</secret>
-
+`AQICAH******************************************************************************************************************cFrAlYeM`
 
 ## Contents
 
