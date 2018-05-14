@@ -9,8 +9,8 @@ Team members to contact for more information:
 
 * [Introduction](#introduction)
 * [Deployments of Buffer-Web](#deployments-of-buffer-web)
-* [Production Deployments to Buffer](#production-deployments-to-buffer)
-* [Staging Deployments of Buffer](#staging-deployments-of-buffer)
+  * [Production Deployments to Buffer](#production-deployments-to-buffer)
+  * [Staging Deployments of Buffer](#staging-deployments-of-buffer)
 
 ## Introduction
 
