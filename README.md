@@ -15,7 +15,7 @@ _In no particular order, please keep up to date and feel free to rearrange in yo
 
 🗒 _Our app, API, admin backend, static pages, and more!_
 
-  * [`buffer-web` repository](https://github.com/bufferapp/buffer-web)
+  * [buffer-web repository](https://github.com/bufferapp/buffer-web)
   * [Deployments](/deployments.md)
 
 ### Blog
