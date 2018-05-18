@@ -9,21 +9,18 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 _In no particular order, please keep up to date and feel free to rearrange in your PRs_
 
 ### Team Specific
-  * [Data Team](/teams/data/README.md)
+* [Data Team](/teams/data/README.md)
     
 ### Buffer Web
-
-🗒 _Our app, API, admin backend, static pages, and more!_
-
-  * [buffer-web repository](https://github.com/bufferapp/buffer-web)
-  * [Deployments](/deployments.md)
+* [`buffer-web` Github Repository](https://github.com/bufferapp/buffer-web)
+* [Deployments](/deployments.md)
 
 ### Blog
-  * [Wordpress Blogs](/wordpress-blogs.md)
+* [Wordpress Blogs](/wordpress-blogs.md)
 
 ### Meta
-  * [Contributing to the Wiki](/CONTRIBUTING.md)
-  * [Encryption Tool for this Wiki](/encryption-tool.md)
+* [Contributing to the Wiki](/CONTRIBUTING.md)
+* [Encryption Tool for this Wiki](/encryption-tool.md)
 
 ---
 
