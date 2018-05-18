@@ -6,19 +6,31 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 
 # Table of Contents
 
-_In no particular order, please keep up to date and feel free to rearrange in your PRs_
+💁 _In no particular order, please keep up to date and feel free to rearrange in your PRs_
 
 ### Team Specific
 * [Data Team](/teams/data/README.md)
 
 ### Local Development
-* [`buffer-dev` Repository](https://github.com/bufferapp/buffer-dev)
+_Get all setup to work on Buffer locally_ 
+
+* [`buffer-dev`](https://github.com/bufferapp/buffer-dev)
     
 ### Buffer Web
-* [`buffer-web` Repository](https://github.com/bufferapp/buffer-web)
+_The web app (/app), API, static pages, and more!_
+
+* [`buffer-web`](https://github.com/bufferapp/buffer-web)
 * [Deployments](/deployments.md)
 
+### Buffer Marketing
+_The home page, more static pages, salary calculator, and more!_
+
+* [`buffer-marketing` Repository](https://github.com/bufferapp/buffer-marketing)
+* Check out the README in `buffer-marketing` for some great documentation.
+
 ### Blog
+_Our blogs, hosted on WPEngine._
+
 * [Wordpress Blogs](/wordpress-blogs.md)
 
 ### Meta
