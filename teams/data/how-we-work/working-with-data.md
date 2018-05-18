@@ -15,3 +15,15 @@
 ## Naming Conventions
 
 - Follow [Looker Naming Convention](https://looker.buffer.com/stories/liger/naming_conventions.md) for SQL.
+
+
+## Batch Data Processing
+
+Batch data processing, also known as ETL, is usually done by running jobs in a schedule.
+Aim to keep these key properties when creating new jobs:
+
+- **Reproducibility**. This can be archieved via immutable data along with versioned logic.
+- **Determinism and idempotency**. They will produce the same result every time they are executed.
+- **No side effects**. This allow jobs to be written, tested, reasoned-about and debugged in isolation, without the need to understand external context or history of events surrounding its execution.
+
+These properties along with an inmutable staging area in the database gives the ability to recompute the state of the entire warehouse from scratch if needed.
