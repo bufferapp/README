@@ -10,9 +10,12 @@ _In no particular order, please keep up to date and feel free to rearrange in yo
 
 ### Team Specific
 * [Data Team](/teams/data/README.md)
+
+### Local Development
+* [`buffer-dev` Repository](https://github.com/bufferapp/buffer-dev)
     
 ### Buffer Web
-* [`buffer-web` Github Repository](https://github.com/bufferapp/buffer-web)
+* [`buffer-web` Repository](https://github.com/bufferapp/buffer-web)
 * [Deployments](/deployments.md)
 
 ### Blog
