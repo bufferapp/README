@@ -1,4 +1,4 @@
-# Editing files on GitHub 
+# Editing files and making a PR directly on GitHub 
 
 _Look ma, no local environment!_
 
