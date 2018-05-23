@@ -20,6 +20,9 @@ Most deployments currently run through Slack and are triggered via a Slackbot co
 
 # Deployments of Buffer-Web
 
+Here is a video talking about how to edit files and propose changes to `buffer-web` on GitHub!
+https://www.youtube.com/watch?v=O-fHOHoL0Oo&feature=youtu.be
+
 ## Production Deployments To Buffer
 
 The command to generate a new deployment to production is:
