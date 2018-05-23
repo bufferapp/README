@@ -22,7 +22,7 @@ Most deployments currently run through Slack and are triggered via a Slackbot co
 
 Here is a video talking about how to edit files and propose changes to `buffer-web` on GitHub!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O-fHOHoL0Oo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+[![Here is a video talking about how to edit files and propose changes to `buffer-web` on GitHub!](https://img.youtube.com/vi/v=O-fHOHoL0Oo/0.jpg)](https://www.youtube.com/watch?v=O-fHOHoL0Oo&feature=youtu.be)
 
 ## Production Deployments To Buffer
 
