@@ -22,7 +22,7 @@ _The web app (/app), API, static pages, and more!_
 * [`buffer-web`](https://github.com/bufferapp/buffer-web)
 * [Deployments](/deployments.md)
 * [Feature Flips](https://github.com/bufferapp/buffer-web/blob/master/docs/release-feature.md)
-* ⭐️NEW [Editing on GitHub](/editing-on-github.md)
+* ⭐️NEW [Editing files and making a PR directly on GitHub](/editing-on-github.md)
 
 ### Buffer Marketing
 _The home page, more static pages, salary calculator, and more!_
