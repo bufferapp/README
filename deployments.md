@@ -8,9 +8,8 @@ Team members to contact for more information:
 ## Contents
 
 * [Introduction](#introduction)
-* [Deployments of Buffer-Web](#deployments-of-buffer-web)
-  * [Production Deployments to Buffer](#production-deployments-to-buffer)
-  * [Staging Deployments of Buffer](#staging-deployments-of-buffer)
+* [Production Deployments](#production-deployments-to-buffer)
+* [Staging Deployments](#staging-deployments-of-buffer)
 
 ## Introduction
 
@@ -18,13 +17,7 @@ At Buffer, we use several methods to help deploy code as flexibly as possible. G
 
 Most deployments currently run through Slack and are triggered via a Slackbot command. Newer services being developed are running through a CI/CD process that deploys to production whenever commits are added to the `master` branch of their corresponding repository.
 
-# Deployments of Buffer-Web
-
-Here is a video talking about how to edit files and propose changes to `buffer-web` on GitHub!
-
-[![Here is a video talking about how to edit files and propose changes to `buffer-web` on GitHub!](https://img.youtube.com/vi/v=O-fHOHoL0Oo/0.jpg)](https://www.youtube.com/watch?v=O-fHOHoL0Oo&feature=youtu.be)
-
-## Production Deployments To Buffer
+## Production Deployments
 
 The command to generate a new deployment to production is:
 
@@ -38,6 +31,7 @@ Buffer's current main codebase is structured as a monolith. Therefore it can be 
 * `api`
 * `utils`
 * `utils-updates`
+* `cron`
 
 The command currently accepts only a single environment at a time.
 
@@ -49,7 +43,7 @@ Prior to deployment, do a quick check with the team using `@here ok for deploy t
 TODO: The process of deploying to multiple production environments
 ```
 
-## Staging Deployments of Buffer
+## Staging Deployments
 
 Part of our development flow allows for staging servers. If you wish to test your work on the staging servers then the below flow is for you. 
 
