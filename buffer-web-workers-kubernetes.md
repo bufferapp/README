@@ -49,7 +49,10 @@ Use `buffer-dev` to starts the worker :
 - `./dev web-worker tail worker_name`
 - `./dev web-worker stop worker_name`
 
+If you have modified the `Dockerfile.local.development`, please make sure to `./dev rebuild web-worker` the dev environment.
+
 Note: This way is better than the `./dev worker` command  because it reflects the exact same container as production. 🐳🐳🐳
+
 
 ## Production Deployments 
 
