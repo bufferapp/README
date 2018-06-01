@@ -10,7 +10,7 @@ Team members to contact for more information:
 * [List of workers in k8s](#list-of-workers-in-k8s)
 * [Architecture](#architecture)
 * [Code specific to k8s](#code-specific-to-k8s)
-* [Run k8s workers locally](#un-k8s-workers-locally)
+* [Run k8s workers locally](#run-k8s-workers-locally)
 * [Production Deployments](#production-deployments)
 
 ## List of workers in k8s
