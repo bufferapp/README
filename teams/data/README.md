@@ -50,5 +50,5 @@ Our set of development practices for an awesome data team! This is also for anyo
 We also have a set of best practices and recommendations:
 
 - [Working with Data](how-we-work/working-with-data.md): General conventions when collecting and using data.
-- [SQL Style Guide](https://looker.buffer.com/stories/liger/SQL_style_guide.md): We follow these style guidelines when writing SQL.
+- [SQL Style Guide](docs/SQL-styleguide.md): We follow these style guidelines when writing SQL.
 - [Documentation Guide](how-we-work/documentation.md): Provides some advice for building, and writing documentation.
