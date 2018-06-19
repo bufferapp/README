@@ -3,7 +3,7 @@
 These endpoints allow you to handle Stripe subscription for Publish and Analyze.
 
 ## POST
-`official client only` [/1/billing/start-trial.json](#post-/1/billing/start-trial.json)
+`official client only` [/1/billing/start-trial.json](#post-1billingstart-trialjson)
 
 
 
