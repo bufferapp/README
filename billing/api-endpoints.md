@@ -7,6 +7,7 @@ These endpoints allow you to handle Stripe subscriptions for Publish and Analyze
 `official client only` [/1/billing/cancel-trial.json](#post-1billingcancel-trialjson) <br/>
 `official client only` [/1/billing/start-or-update-subscription.json](#post-1billingstart-or-update-subscriptionjson) <br/>
 `official client only` [/1/billing/cancel-subscription.json](#post-1billingcancel-subscriptionjson) <br/>
+___
 
 ### POST /1/billing/start-trial.json
 Starts a trial for a user. `official client only`
@@ -27,6 +28,7 @@ Starts a trial for a user. `official client only`
     "success": true
 }
 ```
+___
 
 ### POST /1/billing/cancel-trial.json
 Cancels a trial for a user. `official client only`
@@ -45,6 +47,7 @@ Cancels a trial for a user. `official client only`
     "success": true
 }
 ```
+___
 
 ### POST /1/billing/start-or-update-subscription.json
 Starts a new subscription or updates an existing one. Can (and should) also be used to complete a trial period. `official client only`
@@ -65,7 +68,7 @@ Starts a new subscription or updates an existing one. Can (and should) also be u
     "success": true
 }
 ```
-
+___
 
 ### POST /1/billing/cancel-subscription.json
 Cancels an existing subscription. Will cancel any existing and trialing subscriptions. `official client only`
