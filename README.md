@@ -36,6 +36,11 @@ _Our blogs, hosted on WPEngine._
 
 * [Wordpress Blogs](/wordpress-blogs.md)
 
+### Billing
+_Everything related to the Stripe API & Webhook and our billing logic._
+
+* [Billing API endpoint signatures](/billing/api-endpoints.md)
+
 ### Meta
 * [Contributing to the Wiki](/CONTRIBUTING.md)
 * [Encryption Tool for this Wiki](/encryption-tool.md)
