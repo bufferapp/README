@@ -27,6 +27,13 @@ Starts a trial for a user. `official client only`
 {
     "success": true
 }
+
+or any implemented error from https://buffer.com/developers/api/errors
+
+{
+    "code": 1000,
+    "error": "An error message"
+}
 ```
 ___
 
@@ -45,6 +52,13 @@ Cancels a trial for a user. `official client only`
 ```
 {
     "success": true
+}
+
+or any implemented error from https://buffer.com/developers/api/errors
+
+{
+    "code": 1000,
+    "error": "An error message"
 }
 ```
 ___
@@ -67,6 +81,13 @@ Starts a new subscription or updates an existing one. Can (and should) also be u
 {
     "success": true
 }
+
+or any implemented error from https://buffer.com/developers/api/errors
+
+{
+    "code": 1000,
+    "error": "An error message"
+}
 ```
 ___
 
@@ -85,5 +106,12 @@ Cancels an existing subscription. Will cancel any existing and trialing subscrip
 ```
 {
     "success": true
+}
+
+or any implemented error from https://buffer.com/developers/api/errors
+
+{
+    "code": 1000,
+    "error": "An error message"
 }
 ```
