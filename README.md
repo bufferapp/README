@@ -11,6 +11,7 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 ### Team Specific
 * [Data Team](/teams/data/README.md)
 * [Account Management](/teams/account-management/README.md)
+* [Publish](/teams/Publish/README.md)
 
 ### Local Development
 _Get all setup to work on Buffer locally_ 
