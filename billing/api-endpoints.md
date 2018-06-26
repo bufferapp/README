@@ -45,7 +45,6 @@ Cancels a trial for a user. `official client only`
 |          Name | Required |  Type   | Description                                                                                                                                                         |
 | -------------:|:--------:|:-------:| ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     `product` | required | string  | The product for which to perform the action. <br/><br/> Supported values: `publish` or `analyze`.                                                                   |
-|        `plan` | required | string  | The plan for which to cancel the trial period. <br/><br/> Supported values for Publish: `pro`, `small`, `business`, `agency`.  <br/>Supported values for Analyze: `early-access-10`, `early-access-25`, `early-access-50`, `early-access-100`.
 
 **Response**
 
