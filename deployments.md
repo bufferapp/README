@@ -30,7 +30,7 @@ Buffer's current main codebase is structured as a monolith. Therefore it can be 
 * `web`
 * `api`
 * `utils`
-* `utils-updates`
+* ~~`utils-updates`~~ (DEPRECATED: The `update` workers are in Kubernetes now, [see here](https://github.com/bufferapp/README/blob/master/buffer-web-workers-kubernetes.md#production-deployments).)
 * `cron`
 
 The command currently accepts only a single environment at a time.
