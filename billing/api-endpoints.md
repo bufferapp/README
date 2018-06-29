@@ -3,7 +3,7 @@
 These endpoints allow you to handle Stripe subscriptions for Publish and Analyze.
 
 ## GET
-`official client only` [/1/billing/retrieve-billing-data.json](#post-1billingretrieve-billing-datajson) <br/>
+`official client only` [/1/billing/retrieve-billing-data.json](#get-1billingretrieve-billing-datajson) <br/>
 
 ## POST
 `official client only` [/1/billing/start-trial.json](#post-1billingstart-trialjson) <br/>
