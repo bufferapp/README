@@ -6,13 +6,15 @@ This document is used to state the architectural pattern that should be followed
 
 ### Presentation
 
-The presentation Module contains everything that is related to the user facing parts of our application. This layer should use MVVM to handle the orchestration of data from the data source to the UI - this will be made up of an Android Architecture Components View Model class implementation which will use the Use Case classes to retrieve data. The View Model class will then create an instance of an immutable UI state class which will then be passed to the View which has subscribed to the data stream. This View will then use the model to render it's state. The UI state should be the only state of the View, this way there is only one source of truth for how the display of content is constructed.
+The presentation Module contains everything that is related to the user facing parts of our application. This layer should use MVVM to handle the orchestration of data from the data source to the UI - this will be made up of an Android Architecture Components View Model class implementation which will use the Use Case classes to retrieve data. The View Model class will then create an instance of an immutable UI state class which will then be passed to the View which has subscribed to the data stream. 
+
+This View will then use the model to render it's state. The UI state should be the only state of the View, this way there is only one source of truth for how the display of content is constructed. The UI state should be a sealed class and make use of a Resource State instance (LOADING, SUCCESS, ERROR) so that UI states can easily be composed.
 
 ### Data
 
 The Data Module is our access point to external data layers and is used to fetch data from multiple sources (the cache and network), it also contains the Use Case classes (domain logic) which are uses to carry out operations on the data (such as creating an update, closing a conversation). The data layer contains the Data Models which are used in this module and modules higher than it (such as the UI module). The Remote and Cache module models will map to this model, past here the model will never change so it makes no sense to perform any more mappings.
 
-The Use Case classes will use a repository interface which defines the set of operations which can be performed within the data layer. This interface is the implemented by a Data Repository class which will use a Data Store Factory to retrieve an instance of a Data Store Interface to retrieve data from. This Data Store Interface will be implemented by an external layer and allows us to abstract the source of data from our data layer - allowing us to create a more flexible and decoupled data source.
+The Use Case classes will use a repository interface which defines the set of operations which can be performed within the data layer. This interface is the implemented by a Data Repository class which will use a Data Store Factory to retrieve an instance of a Data Store Interface to retrieve data from. This Data Store Interface will be implemented by an external layer and allows us to abstract the source of data from our data layer - allowing us to create a more flexible and decoupled data source
 
 ### Remote
 
