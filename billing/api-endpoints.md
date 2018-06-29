@@ -2,11 +2,53 @@
 
 These endpoints allow you to handle Stripe subscriptions for Publish and Analyze.
 
+## GET
+`official client only` [/1/billing/retrieve-billing-data.json](#post-1billingretrieve-billing-datajson) <br/>
+
 ## POST
 `official client only` [/1/billing/start-trial.json](#post-1billingstart-trialjson) <br/>
 `official client only` [/1/billing/cancel-trial.json](#post-1billingcancel-trialjson) <br/>
 `official client only` [/1/billing/start-or-update-subscription.json](#post-1billingstart-or-update-subscriptionjson) <br/>
 `official client only` [/1/billing/cancel-subscription.json](#post-1billingcancel-subscriptionjson) <br/>
+___
+
+### GET /1/billing/retrieve-billing-data.json
+Get basics billing data for the current user. (it has been poorly implemented for now to unblock the Analyze team, and should only be used by Analyze) `official client only`
+
+**Parameters**
+
+|          Name | Required |  Type   | Description                                                                                                                                                           |
+| -------------:|:--------:|:-------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     `product` | required | string  | The product for which to perform the action. <br/><br/> Supported values: `publish` or `analyze`.                                                                     |
+
+**Response**
+
+```
+{
+    "success": true,
+    "data": {
+        "has_subscription": false
+    }
+}
+
+or
+
+{
+    "success": true,
+    "data": {
+        "has_subscription": true,
+        "plan_name": "early-access-10", //could be any supported plan
+        "cycle": "month|year"
+    }
+}
+
+or any implemented error from https://buffer.com/developers/api/errors
+
+{
+    "code": 1000,
+    "error": "An error message"
+}
+```
 ___
 
 ### POST /1/billing/start-trial.json
