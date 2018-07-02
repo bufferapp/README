@@ -2,7 +2,7 @@
 
 This document is used to state the architectural pattern that should be followed when either creating new applications or building new features into the application where it makes sense to. This structure allows us to write code that is easy to test and loosely coupled, not being tied tightly to multiple responsibilites. The general structure of our applications should like below:
 
-![architecture](https://github.com/bufferapp/README/tree/master/teams/mobile/Android/art/arch.png?raw=true)
+![architecture](https://github.com/bufferapp/README/blob/master/teams/mobile/Android/art/arch.png?raw=true)
 
 ### Presentation
 
