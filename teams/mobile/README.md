@@ -2,10 +2,8 @@
 
 ## Team
 - Marcus Wermuth - Mobile Lead
-
 - Andrew Yates - iOS Lead Engineer
 - Jordan Morgan - iOS Engineer
-
 - Joe Birch - Android Lead Engineer
 - Victoria Gonda - Android Engineer
 
