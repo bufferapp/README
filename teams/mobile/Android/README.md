@@ -1,5 +1,7 @@
 # Mobile - Android
 
+[Architecture Guidelines](https://github.com/bufferapp/README/tree/master/teams/mobile/Android/android_architecture.md)
+
 ## Applications
 
 ### Buffer Publish
