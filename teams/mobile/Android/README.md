@@ -2,6 +2,8 @@
 
 [Architecture Guidelines](https://github.com/bufferapp/README/tree/master/teams/mobile/Android/android_architecture.md)
 
+[Testing Guidelines](https://github.com/bufferapp/README/tree/master/teams/mobile/Android/testing/what_to_test.md)
+
 ## Applications
 
 ### Buffer Publish
