@@ -18,6 +18,15 @@ We work in [6 week cycles](https://open.buffer.com/6-week-cycles/) similar to th
 - 1 week of Bug Fixing/Customer Support
 - 1 week of placeholder for changes to our product/platform
 
+### Mobile Slack channels
+- #advocacy-mobile
+- #mobile
+- #mobile-ios
+- #mobile-android
+- #prod-reply-mobile
+- #mobile-review-android
+- #mobile-review-ios
+
 ## Applications
 
 ### iOS
