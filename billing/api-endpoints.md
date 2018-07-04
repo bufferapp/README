@@ -24,6 +24,7 @@ Get basics billing data for the current user. (it has been poorly implemented fo
 **Response**
 
 ```
+// Customer has no subscription
 {
     "success": true,
     "data": {
@@ -33,14 +34,46 @@ Get basics billing data for the current user. (it has been poorly implemented fo
 
 or
 
+// Customer has one paying subscription
 {
     "success": true,
     "data": {
         "has_subscription": true,
-        "plan_name": "early-access-10", //could be any supported plan
-        "cycle": "month|year"
+        "paying_subscription_plan_name": "early-access-10", //could be any supported plan
+        "paying_subscription_cycle": "month|year",
+        "paying_subscription_current_period_end": 1531897966 //timestamp in seconds
     }
 }
+
+or
+
+// Customer has one trialing subscription
+{
+    "success": true,
+    "data": {
+        "has_subscription": true,
+        "trialing_subscription_plan_name": "early-access-10", //could be any supported plan
+        "trialing_subscription_cycle": "month|year",
+        "trialing_subscription_current_period_end": 1531897966 //timestamp in seconds
+    }
+}
+
+or
+
+// Customer has two subscriptions
+{
+    "success": true,
+    "data": {
+        "has_subscription": true,
+        "paying_subscription_plan_name": "pro", //could be any supported plan
+        "paying_subscription_cycle": "month|year",
+        "paying_subscription_current_period_end": 1531897966, //timestamp in seconds
+        "trialing_subscription_plan_name": "business", //could be any supported plan
+        "trialing_subscription_cycle": "month|year",
+        "trialing_subscription_current_period_end": 1931897966 //timestamp in seconds
+    }
+}
+
 
 or any implemented error from https://buffer.com/developers/api/errors
 
