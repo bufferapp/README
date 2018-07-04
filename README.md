@@ -26,6 +26,8 @@ _The web app (/app), API, static pages, and more!_
 * [Deployments](/deployments.md)
 * [Feature Flips](https://github.com/bufferapp/buffer-web/blob/master/docs/release-feature.md)
 * ️[buffer-web workers in k8s](/buffer-web-workers-kubernetes.md)
+* ️[Lifecycle of an update](https://paper.dropbox.com/doc/Lifecycle-of-an-update-4rUM5QNLWO4MpNimFpUPy)
+
 * ⭐ NEW [Editing files and making a PR directly on GitHub](/editing-on-github.md)
 
 ### Buffer Marketing
