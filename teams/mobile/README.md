@@ -21,12 +21,12 @@ Our Mobile Sync happens every **Thursday** at **6pm CET / 11am CDT / 9am PDT**
 
 ## Applications
 
-### [iOS](/iOs/Readme.md)
+### [iOS](/teams/mobile/iOS/README.md)
 
 - [Publish for iOS](https://itunes.apple.com/us/app/buffer-social-media-manager/id490474324)
 - [Reply for iOS](https://itunes.apple.com/us/app/buffer-reply/id1327777195)
 
-### [Android](/Android/Readme.md)
+### [Android](/teams/mobile/Android/README.md)
 
 - [Publish for Android](https://play.google.com/store/apps/details?id=org.buffer.android)
 - [Reply for Android](https://play.google.com/store/apps/details?id=org.buffer.reply.android)
