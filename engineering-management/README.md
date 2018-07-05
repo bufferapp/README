@@ -3,6 +3,7 @@ At Buffer all Managers should follow the principles of Stewardship and sheperdin
 
 **Subpages:**
 - [1-1s](/engineering-management/one-on-ones.md)
+- [Skip Level 1-1s](engineering-management/skip-levels.md)
 - [Career Path Framework](/engineering-management/career-path-framework.md)
 - [Manager Readme](/engineering-management/manager-readme.md)
 
