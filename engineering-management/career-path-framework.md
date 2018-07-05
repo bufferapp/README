@@ -118,6 +118,8 @@ Exhibits **ownership** across the org - this person is a **guardian of Buffer**.
 Ownership: Is **a last point of failure;** the buck stops here (in the case of some massive failure, the 5 Why’s process would likely come down to something went wrong at this level)
 This person is **rare**. This takes an exceptional amount of dedication to the craft and is again a big jump from staff engineer.
 
+---
+
 ### Engineer of Distinction
 **Scope of Influence:** Industry
 
