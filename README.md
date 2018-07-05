@@ -36,10 +36,10 @@ _The home page, more static pages, salary calculator, and more!_
 * [`buffer-marketing` Repository](https://github.com/bufferapp/buffer-marketing)
 * Check out the README in `buffer-marketing` for some great documentation.
 
-### Blog
+### Blogs
 _Our blogs, hosted on WPEngine._
 
-* [Wordpress Blogs](/wordpress-blogs.md)
+* [Blogs](/blogs/blogs.md)
 
 ### Billing
 _Everything related to the Stripe API & Webhook and our billing logic._
