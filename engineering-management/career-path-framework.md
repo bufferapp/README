@@ -17,6 +17,8 @@
 
 **Average Expected Timeframe to Software Engineer II:** 6–12 months
 
+---
+
 ### Software Engineer 2
 **Scope of Influence:** Their project and their peers. 
 
@@ -31,6 +33,8 @@
 
 **Average Expected Timeframe to Senior:** 1 - 3 years 
 
+---
+
 ### Software Engineer 3
 **Scope of Influence:** Their project and their peers.
 
@@ -40,6 +44,8 @@
 **Fully owns** a service or component
 
 **Average Expected Timeframe to Senior:** 1 - 3 years 
+
+---
 
 ### Senior Engineer
 **Scope of Influence:** Whole team/product area.
