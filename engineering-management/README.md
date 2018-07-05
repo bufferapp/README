@@ -3,6 +3,8 @@ At Buffer all Managers should follow the principles of Stewardship and sheperdin
 
 **Subpages:**
 - [1-1s](/engineering-management/one-on-ones.md)
+- [Career Path Framework](/engineering-management/career-path-framework.md)
+- [Manager Readme](/engineering-management/manager-readme.md)
 
 ## Core Accountabilities of Engineering Managers
 1. Engagement & Retention of Engineers
@@ -17,7 +19,7 @@ The team is productive, delivering software of an agreed quality standard, in a 
 ## Core Accountabilities of Director of Engineering, Management
 1. People & Culture 
 The Director oversees all aspects of engineering management, recruitment, retention and culture, so that we have a highly effective team that also demonstrates care for each individual’s personal development, career progression and mental wellbeing.
-**Areas of work:** Manager 1:1s, skip-level 1:1s, career frameworks, overseeing the hiring process, and engineering-wide culture initiatives fall here.
+**Areas of work:** Manager 1:1s, skip-level 1:1s, [Career Path Framework](/engineering-management/career-path-framework.md), overseeing the hiring process, and engineering-wide culture initiatives fall here.
 
 2. Delivery & Operations
 The Director is accountable to the overall engineering delivery on our product strategy and vision in a way that is timely, of the chosen quality level, and long-run sustainable for all engineering’s stakeholders. They are accountable to teams across engineering having the right types and amount of structure to work smoothly and transparently. Our processes serve our people, our products and our customers.
