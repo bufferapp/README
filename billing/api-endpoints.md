@@ -28,7 +28,7 @@ Get basics billing data for the current user. (it has been poorly implemented fo
 {
     "success": true,
     "data": {
-        "has_subscription": false
+        "subscriptions": []
     }
 }
 
@@ -38,10 +38,16 @@ or
 {
     "success": true,
     "data": {
-        "has_subscription": true,
-        "paying_subscription_plan_name": "early-access-10", //could be any supported plan
-        "paying_subscription_cycle": "month|year",
-        "paying_subscription_current_period_end": 1531897966 //timestamp in seconds
+        "subscriptions": [
+            0 => [
+                "plan_name": "early-access-10", //could be any supported plan
+                "cycle": "month|year",
+                "current_period_end": 1531897966, //timestamp in seconds
+                "cancel_at_period_end": true|false,
+                is_paying: true,
+                is_trialing: false
+            ]
+        ]
     }
 }
 
@@ -51,10 +57,16 @@ or
 {
     "success": true,
     "data": {
-        "has_subscription": true,
-        "trialing_subscription_plan_name": "early-access-10", //could be any supported plan
-        "trialing_subscription_cycle": "month|year",
-        "trialing_subscription_current_period_end": 1531897966 //timestamp in seconds
+        "subscriptions": [
+            0 => [
+                "plan_name": "early-access-10", //could be any supported plan
+                "cycle": "month|year",
+                "current_period_end": 1531897966, //timestamp in seconds
+                "cancel_at_period_end": true|false,
+                is_paying: false,
+                is_trialing: true
+            ]
+        ]
     }
 }
 
@@ -64,13 +76,24 @@ or
 {
     "success": true,
     "data": {
-        "has_subscription": true,
-        "paying_subscription_plan_name": "pro", //could be any supported plan
-        "paying_subscription_cycle": "month|year",
-        "paying_subscription_current_period_end": 1531897966, //timestamp in seconds
-        "trialing_subscription_plan_name": "business", //could be any supported plan
-        "trialing_subscription_cycle": "month|year",
-        "trialing_subscription_current_period_end": 1931897966 //timestamp in seconds
+        "subscriptions": [
+            0 => [
+                "plan_name": "pro", //could be any supported plan
+                "cycle": "month|year",
+                "current_period_end": 1531897966, //timestamp in seconds
+                "cancel_at_period_end": true|false,
+                is_paying: true,
+                is_trialing: false
+            ],
+            1 => [
+                "plan_name": "business", //could be any supported plan
+                "cycle": "month|year",
+                "current_period_end": 1531897966, //timestamp in seconds
+                "cancel_at_period_end": true|false,
+                is_paying: false,
+                is_trialing: true
+            ]
+        ]
     }
 }
 
