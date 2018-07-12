@@ -1,6 +1,4 @@
 # Engineering Career Path Framework at Buffer
-🌟 ✨  It's dangerous to go alone! Take this! 👇 🌟 ✨ 
-
 💫 Questions? Check out the FAQ: [Engineering Career Paths FAQ](/engineering-management/career-path-framework-faq.md) 💫 
 
 ## Levels
