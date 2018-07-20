@@ -10,31 +10,41 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 
 ### Team Specific
 * [Data Team](/teams/data/README.md)
+* [Account Management](/teams/account-management/README.md)
+* [Publish](/teams/publish)
+* [Mobile](/teams/mobile/README.md)
 
 ### Local Development
 _Get all setup to work on Buffer locally_ 
 
-* [`buffer-dev`](https://github.com/bufferapp/buffer-dev)
+* :octocat: [`buffer-dev`](https://github.com/bufferapp/buffer-dev)
     
 ### Buffer Web
 _The web app (/app), API, static pages, and more!_
 
-* [`buffer-web`](https://github.com/bufferapp/buffer-web)
+* :octocat: [`buffer-web`](https://github.com/bufferapp/buffer-web)
 * [Deployments](/deployments.md)
 * [Feature Flips](https://github.com/bufferapp/buffer-web/blob/master/docs/release-feature.md)
 * ️[buffer-web workers in k8s](/buffer-web-workers-kubernetes.md)
+* ️[Lifecycle of an update](https://paper.dropbox.com/doc/Lifecycle-of-an-update-4rUM5QNLWO4MpNimFpUPy)
+
 * ⭐ NEW [Editing files and making a PR directly on GitHub](/editing-on-github.md)
 
 ### Buffer Marketing
 _The home page, more static pages, salary calculator, and more!_
 
-* [`buffer-marketing` Repository](https://github.com/bufferapp/buffer-marketing)
+* :octocat: [`buffer-marketing`](https://github.com/bufferapp/buffer-marketing)
 * Check out the README in `buffer-marketing` for some great documentation.
 
 ### Blog
 _Our blogs, hosted on WPEngine._
 
 * [Wordpress Blogs](/wordpress-blogs.md)
+
+### Billing
+_Everything related to the Stripe API & Webhook and our billing logic._
+
+* [Billing API endpoint signatures](/billing/api-endpoints.md)
 
 ### Meta
 * [Contributing to the Wiki](/CONTRIBUTING.md)

@@ -1,18 +1,17 @@
 # `buffer-web` workers in Kubernetes
 
-We are transitionning `buffer-web` utils workers to k8s (Kubernetes). Here what you'll need to know to make changes to this workers
+We are transitionning `buffer-web` utils workers to k8s (Kubernetes). Here what you'll need to know to make changes to those workers.
 
 Team members to contact for more information:
 * Primary contacts - Eric, Colin
 
 ## Contents
 
+* [List of workers in k8s](#list-of-workers-in-k8s)
 * [Architecture](#architecture)
 * [Code specific to k8s](#code-specific-to-k8s)
-* [Run k8s workers locally](#production-deployments-to-buffer)
-* [Production Deployments](#production-deployments-to-buffer)
-* [List of workers in k8s](#list-of-workers-in-k8s)
-* [Few things to remember](#few-things-to-remember)
+* [Run k8s workers locally](#run-k8s-workers-locally)
+* [Production Deployments](#production-deployments)
 
 ## List of workers in k8s
 | Worker name | deployment key | Description|
@@ -27,15 +26,15 @@ Team members to contact for more information:
 | twitter-friends | worker-twitter-friends | Index in the twitter friend elasticsearch cluster
 | user-cleanup | worker-user-cleanup | clean users information after they leave buffer
 
-All other workers in utils will be migrated soon
+All other workers in utils will be migrated soon.
 
 ## Architecture
 
-To put it in a simple way, we put the `buffer-web` repo in a docker container and run the workers in k8s. [Here the Dockerfile used in production]. The image use the [official PHP 5.6.31](https://github.com/bufferapp/dockerfiles/blob/master/php56-cli/Dockerfile) image, that use itself `Debian 8.9 (jessie)`.
+To put it in a simple way, we put the `buffer-web` repo in a docker container and run the workers in k8s. [Here the Dockerfile used in production](https://github.com/bufferapp/buffer-web/blob/master/Dockerfile.workers). We use the [official PHP 5.6.31](https://github.com/bufferapp/dockerfiles/blob/master/php56-cli/Dockerfile) image, that uses itself `Debian 8.9 (jessie)`.
 
-Each workers has its own kubernetes deployment file located in the kube repo, under `kube/us-east1.buffer-k8s.com/workers`. Reach anyone in the system team to have access to it!
+Each worker has its own kubernetes deployment file located in the kube repo, under `kube/us-east1.buffer-k8s.com/workers`. Reach anyone in the system team to have access to it!
 
-Instead of using the "usual" SQS queue, we consume the same queue but with the `k8s_` prefix. So all 
+In SQS, the new queue name [has the `_k8s` suffix appened](https://github.com/bufferapp/buffer-web/blob/4eda46cb62a18f9285eab93e33100d7133e92cfc/shared/libraries/Workers/Worker.php#L81-L83) to its previous name. For instance, instead of `update` queue, it will be `update_k8s`
 
 ## Code specific to k8s
 We set the  [`ENV_KUBERNETES`](https://github.com/bufferapp/buffer-web/blob/37348b9f59c675f420ea7099fd2ed9d0758e4844/Dockerfile.workers#L10
