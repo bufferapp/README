@@ -13,7 +13,7 @@ The pipeline explained here uses Kinesis but that could be anything, from files 
 - [`rotatelogs`][rotatelogs]: With this CLI tool we'll be able to rotate the logs and avoid making a file bigger and bigger.
 
 [mongoct]: https://github.com/bufferapp/mongoct
-[docker-kinesis][https://github.com/zendesk/docker-amazon-kinesis-agent]
+[docker-kinesis]: [https://github.com/zendesk/docker-amazon-kinesis-agent]
 [rotatelogs]: https://httpd.apache.org/docs/2.4/programs/rotatelogs.html
 
 ## Instructions
