@@ -4,6 +4,8 @@
 
 [Testing Guidelines](https://github.com/bufferapp/README/tree/master/teams/mobile/Android/testing/what_to_test.md)
 
+[Continuous Integration](https://github.com/bufferapp/README/tree/master/teams/mobile/Android/CI)
+
 ## Applications
 
 ### Buffer Publish
