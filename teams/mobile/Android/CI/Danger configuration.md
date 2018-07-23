@@ -1,4 +1,4 @@
-Danger configuration
+# Danger configuration
 
 Our CI flow currently uses Danger to handle the review of certain PR tasks such as style checks, testing and whether or not critical files have been changed. These checks are in place to allow us to smoothen our review process by eliminating these tasks to be carried out by ourselves (automate everything!). This means we can make better use of code review time by checking the logic of the code itself.
 
@@ -14,7 +14,7 @@ With our configuration for Danger in place, for both projects Bufferbot will lea
 
 Whilst these comments are added, they are only there to let you know of these things. It will be your best judgement to know if something should be changed or not :)
 
-# Configuring the Danger process
+## Configuring the Danger process
 
 There are a few main parts to how the flow above operates:
 
@@ -22,9 +22,9 @@ There are a few main parts to how the flow above operates:
 
 - Gradle command: There is a custom gradle command in our root build.gradle file called ```runKtlint```, this essentially runs ktlint and lint checks for each of our modules.
 
-- Bitrise script exxecution: In bitrise we have to run a couple of scripts in-order to get this process working:
+- Bitrise script execution: In bitrise we have to run a couple of scripts in-order to get this process working:
 
-<image>
+![architecture](https://github.com/bufferapp/README/blob/master/teams/mobile/Android/art/bitrise-danger.png?raw=true)
 
 - run Ktlint: We begin by executing the ktlint gradle command in our proejct
 
