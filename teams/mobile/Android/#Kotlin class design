@@ -1,0 +1,41 @@
+#Kotlin class design
+
+When creating classes such as activities, fragments, view models and more it can make working with these file a lot easier if there is a sense of consistency to how they are structured. For this reason we have a way in which we build our classes so that we know where specific components will be located. For example:
+
+- If you're looking for the companion object of the class, you know it will be at the top of the class
+- If you're looking for the listeners used in the clas, you'll know to head straight to the bottom
+- if you're trying to add something to a lifecycle function, you'll know where to find it as we logically order the lifecycle functions
+
+Hopefully from this you can see how we try to make it simpler to work with our code. The following guidelines apply throughout our projects:
+
+## Field declaration
+
+	companion object
+		const
+		fields and then functions
+
+	@Inject
+	private
+		val
+		var
+		lateinit var
+	val
+	var
+	lateinit var
+
+
+## Function ordering
+	
+	Lifecycler ordered
+		onCreate
+		onResume
+		etc
+
+	public functions
+	internal functions
+	private functinos
+
+## Misc
+
+	listeners
+	internal classes
