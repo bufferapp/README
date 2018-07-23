@@ -18,20 +18,20 @@ Whilst these comments are added, they are only there to let you know of these th
 
 There are a few main parts to how the flow above operates:
 
-- Dangerfile: There is a Dangerfile at the root of each of the projects. This Dangerfile is repsonsbile for defining the 
+- **Dangerfile**: There is a Dangerfile at the root of each of the projects. This Dangerfile is repsonsbile for defining the 
 
-- Gradle command: There is a custom gradle command in our root build.gradle file called ```runKtlint```, this essentially runs ktlint and lint checks for each of our modules.
+- **Gradle command**: There is a custom gradle command in our root build.gradle file called ```runKtlint```, this essentially runs ktlint and lint checks for each of our modules.
 
-- Bitrise script execution: In bitrise we have to run a couple of scripts in-order to get this process working:
+- **Bitrise script execution**: In bitrise we have to run a couple of scripts in-order to get this process working:
 
 ![architecture](https://github.com/bufferapp/README/blob/master/teams/mobile/Android/art/bitrise-danger.png?raw=true)
 
-- run Ktlint: We begin by executing the ktlint gradle command in our proejct
+- **Run Ktlint**: We begin by executing the ktlint gradle command in our proejct
 
-- Create ktlint merged report: Next we need to get each of the ktlint reports for each of our modules and merge them into a single report. We also adjust the file paths here so that the github paths are correct for commenting.
+- **Create ktlint merged report**: Next we need to get each of the ktlint reports for each of our modules and merge them into a single report. We also adjust the file paths here so that the github paths are correct for commenting.
 
-- Create Android lint merged report: Then we need to get each of the android lint reports for each of our modules and merge them into a single report. We also adjust the file paths here so that the github paths are correct for commenting.
+- **Create Android lint merged report**: Then we need to get each of the android lint reports for each of our modules and merge them into a single report. We also adjust the file paths here so that the github paths are correct for commenting.
 
-- Copy reports to depoly path: Next we copy the generated files so that they are accessible by our dangerfile
+- **Copy reports to depoly path**: Next we copy the generated files so that they are accessible by our dangerfile
 
-- Run danger: Finally, run the danger task. This task will then make use of the files mentioned above. In the danger file we also have a custom script which performs diffs on added / modified files to check testing status and notify the PR author of this.
+- **Run danger**: Finally, run the danger task. This task will then make use of the files mentioned above. In the danger file we also have a custom script which performs diffs on added / modified files to check testing status and notify the PR author of this.
