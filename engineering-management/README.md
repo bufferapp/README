@@ -8,17 +8,19 @@ At Buffer all Managers should follow the principles of Stewardship and sheperdin
 - [Manager Readme](/engineering-management/manager-readme.md)
 
 ## Core Accountabilities of Engineering Managers
-1. Engagement & Retention of Engineers
+**1. Engagement & Retention of Engineers**
+
 Engineers are meeting their role expectations, have a healthy, supportive work environment, and are getting the encouragement, recognition and feedback needed to keep succeeding and to grow professionally.
 
 **Examples of work in this area:**
 [1-1s](/engineering-management/one-on-ones.md), career roadmaps, promotion motivations, team retros and learning syncs
 
-2. Delivery of the Product
+**2. Delivery of the Product**
+
 The team is productive, delivering software of an agreed quality standard, in a predictable and reasonable time frame.
 (While “predictable and reasonable” is fuzzy, we are aiming for transparent, predictable work and are accountable to continuous learning to improve in a blame-free way where product delivery faces bottlenecks).
 
-**xamples of work in this area:** 
+**Examples of work in this area:** 
 Team cycle planning to get rough estimates, surfacing challenges that could hamper a team's ability to deliver, and cross-team dependency coordination and project management fall here.
 
 ## Core Accountabilities of Director of Engineering, Management
