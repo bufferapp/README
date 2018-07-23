@@ -1,6 +1,6 @@
 # Danger configuration
 
-Our CI flow currently uses Danger to handle the review of certain PR tasks such as style checks, testing and whether or not critical files have been changed. These checks are in place to allow us to smoothen our review process by eliminating these tasks to be carried out by ourselves (automate everything!). This means we can make better use of code review time by checking the logic of the code itself.
+Our CI flow currently uses Danger to handle the review of certain PR tasks such as style checks, testing and whether or not critical files have been changed. These checks are in place to allow us to smoothen our review process by eliminating these tasks to be carried out by ourselves (automate everything!). This means we can make better use of code review time by checking the logic of the code itself. You can see an example of this in action [here](https://github.com/bufferapp/buffer-reply-android/pull/225)
 
 With our configuration for Danger in place, for both projects Bufferbot will leave comments for:
 
