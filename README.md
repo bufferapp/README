@@ -14,6 +14,9 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 * [Publish](/teams/publish)
 * [Mobile](/teams/mobile/README.md)
 
+### Engineering Leadership
+* [How Engineering Management Works at Buffer](https://github.com/bufferapp/README/tree/master/engineering-management)
+
 ### Local Development
 _Get all setup to work on Buffer locally_ 
 
