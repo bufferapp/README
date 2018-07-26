@@ -7,6 +7,10 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 # Table of Contents
 
 💁 _In no particular order, please keep up to date and feel free to rearrange in your PRs_
+### Local Development
+_Get all setup to work on Buffer locally_ 
+
+* :octocat: [`buffer-dev`](https://github.com/bufferapp/buffer-dev)
 
 ### Team Specific
 * [Data Team](/teams/data/README.md)
@@ -16,14 +20,9 @@ It's a handy reference whether you're new, changing teams, or just like breaking
 
 ### Engineering Leadership
 * [How Engineering Management Works at Buffer](https://github.com/bufferapp/README/tree/master/engineering-management)
-
-### Local Development
-_Get all setup to work on Buffer locally_ 
-
-* :octocat: [`buffer-dev`](https://github.com/bufferapp/buffer-dev)
     
 ### Buffer Web
-_The web app (/app), API, static pages, and more!_
+_The web app at buffer.com/app, API, static pages, and more!_
 
 * :octocat: [`buffer-web`](https://github.com/bufferapp/buffer-web)
 * [Deployments](/deployments.md)
@@ -34,7 +33,7 @@ _The web app (/app), API, static pages, and more!_
 * ⭐ NEW [Editing files and making a PR directly on GitHub](/editing-on-github.md)
 
 ### Buffer Marketing
-_The home page, more static pages, salary calculator, and more!_
+_The home page at buffer.com, more static pages, salary calculator, and more!_
 
 * :octocat: [`buffer-marketing`](https://github.com/bufferapp/buffer-marketing)
 * Check out the README in `buffer-marketing` for some great documentation.
