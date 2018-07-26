@@ -48,6 +48,10 @@ _Everything related to the Stripe API & Webhook and our billing logic._
 
 * [Billing API endpoint signatures](/billing/api-endpoints.md)
 
+### Open Source
+_Everything related to Open Source at Buffer_
+* [Buffer Open Source FAQ](/open-source-faq.md)
+
 ### Meta
 * [Contributing to the Wiki](/CONTRIBUTING.md)
 * [Encryption Tool for this Wiki](/encryption-tool.md)
