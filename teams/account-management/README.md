@@ -34,3 +34,8 @@ A service responsible for holding the Buffer account data (email, password, fore
 Production URL: N\A - internal service
 
 Documentation: https://github.com/bufferapp/core-authentication-service/blob/master/README.md
+
+## Diagrams and Documentation
+
+- [Architecture Diagrams](architecture.md)
+- [Flow charts](flow-charts.md)
