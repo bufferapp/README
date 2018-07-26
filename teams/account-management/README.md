@@ -1,5 +1,54 @@
 # Account Management
 
+## Setup your local dev environment
+
+To get started on local development and testing:
+
+1. **Get your `buffer-dev` environment setup**
+  → https://github.com/bufferapp/buffer-dev
+
+2. **Install the latest version of `yarn`**
+  → [Installing Yarn](https://yarnpkg.com/en/docs/install)
+
+3. **Make sure you have node with version <= 9 (Node v10 is not compatible)**
+    ```
+    $ node -v
+    ```
+
+4. **Install Packages and Bootstrap**
+    ```bash
+    $ cd ~/buffer-dev/buffer-login  # Or wherever yours is located
+    $ yarn
+    $ yarn run bootstrap
+
+    $ cd ~/buffer-dev/buffer-account  # Or wherever yours is located
+    $ yarn
+    $ yarn run bootstrap
+   ```
+
+5. **Start up the docker containers**
+    ```bash
+    $ cd ~/buffer-dev # Or wherever yours is located
+    $ ./dev up session-service-dev core-authentication-service-dev login-dev publish marketing web
+   ```
+
+   Login and Account Manager rely on both the **session** and **account** services, so it's important to include them in our _up_ command. The order is important, since this relates to the way docker-compose starts up containers.
+
+   Appending `-dev` to `session-service-dev core-authentication-service-dev login-dev` will tell Docker to use your local container. Removing `-dev` will use the production images, so your local changes will be ignored.
+
+6. **You should now be able to visit https://login.local.buffer.com — party time! 🎉 🙌**
+
+7. **Populate MongoDB with a Buffer admin user**
+    ```bash
+    $ cd ~/buffer-dev # Or wherever yours is located
+    $ ./dev mock admin && ./dev mock generatePublishClient
+    ```
+8. **You should now be able to login using the following credentials `admin@bufferapp.com / password`**
+
+9. **(Optional) Setup the new Publish dashboard **
+
+    Follow steps from the [Publish Readme](https://github.com/bufferapp/buffer-publish/blob/master/README.md)
+
 ## Applications
 
 ### Buffer Login
