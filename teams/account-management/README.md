@@ -2,7 +2,7 @@
 
 ## Applications
 
-### Buffer Login 
+### Buffer Login
 
 Handles login and logout for Analyze, Publish and Account applications.
 
@@ -25,3 +25,17 @@ A service responsible for managing sessions in redis and verifying that a sessio
 Production URL: N\A - internal service
 
 Documentation: https://github.com/bufferapp/session-service/blob/master/README.md
+
+
+### Core Authentication Service
+
+A service responsible for holding the Buffer account data (email, password, foreign key to user IDs for each product, and product links) in a new MongoDB, and providing features like account creation, authentication, reset password and TFA.
+
+Production URL: N\A - internal service
+
+Documentation: https://github.com/bufferapp/core-authentication-service/blob/master/README.md
+
+## Diagrams and Documentation
+
+- [Architecture Diagrams](architecture.md)
+- [Flow charts](flow-charts.md)
