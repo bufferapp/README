@@ -29,7 +29,7 @@ To get started on local development and testing:
 5. **Start up the docker containers**
     ```bash
     $ cd ~/buffer-dev # Or wherever yours is located
-    $ ./dev up session-service-dev core-authentication-service-dev login-dev publish marketing web
+    $ ./dev up session-service-dev core-authentication-service-dev login-dev account publish marketing web
    ```
 
    Login and Account Manager rely on both the **session** and **account** services, so it's important to include them in our _up_ command. The order is important, since this relates to the way docker-compose starts up containers.
