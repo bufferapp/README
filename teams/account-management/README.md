@@ -10,7 +10,9 @@ To get started on local development and testing:
 2. **Install the latest version of `yarn`**
   → [Installing Yarn](https://yarnpkg.com/en/docs/install)
 
-3. **Make sure you have node with version <= 9 (Node v10 is not compatible)**
+3. **Verify your node version**
+
+    Make sure you have node with version <= 9 (Node v10 is not compatible). Using the latest active LTS is advised as our docker containers will run this version: see https://github.com/nodejs/Release.
     ```
     $ node -v
     ```
