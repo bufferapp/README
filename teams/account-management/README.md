@@ -88,6 +88,9 @@ Production URL: N\A - internal service
 
 Documentation: https://github.com/bufferapp/session-service/blob/master/README.md
 
+Dashboard: https://app.datadoghq.com/screen/218648/session-service?page=0&is_auto=false&from_ts=1533074820000&to_ts=1533078420000&live=true
+
+Alerts: https://app.datadoghq.com/monitors/manage?q=%22session-service%22
 
 ### Core Authentication Service
 
