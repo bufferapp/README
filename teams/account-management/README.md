@@ -28,7 +28,8 @@ To get started on local development and testing:
 5. **Start up the docker containers**
     ```bash
     $ cd ~/buffer-dev # Or wherever yours is located
-    $ ./dev up session-service-dev core-authentication-service-dev login-dev account publish marketing web
+    $ ./dev up session-service-dev core-authentication-service-dev login-dev account
+    # if you want to start the web dashboard locally you add `web` to the above command after `account`
    ```
     **Is the order important?**
 
