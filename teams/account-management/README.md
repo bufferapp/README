@@ -30,10 +30,21 @@ To get started on local development and testing:
     $ cd ~/buffer-dev # Or wherever yours is located
     $ ./dev up session-service-dev core-authentication-service-dev login-dev account publish marketing web
    ```
+    **Is the order important?**
 
-   Login and Account Manager rely on both the **session** and **account** services, so it's important to include them in our _up_ command. The order is important, since this relates to the way docker-compose starts up containers.
+   Yes! Login and Account Manager rely on both the **session** and **account** services, so it's important to include them in our *up* command. The order is important, since this relates to the way docker-compose starts up containers.
 
-   Appending `-dev` to `session-service-dev core-authentication-service-dev login-dev` will tell Docker to use your local container. Removing `-dev` will use the production images, so your local changes will be ignored.
+   **What it `dev` mode?**
+
+   Appending `-dev` to a service name (i.e, `ore-authentication-service-dev`) will run your local code rather than the production docker container.
+
+   **Which services have a dev mode?**
+
+   Only `login`, `core-authentication-service` and `session-service` can be started in dev or production mode. All other services will run the local code by default.
+
+   **When to use dev mode?**
+
+   Whenever you develop one fo these services.
 
 6. **You should now be able to visit https://login.local.buffer.com — party time! 🎉 🙌**
 
