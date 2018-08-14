@@ -35,7 +35,7 @@ For any given date, we sum the MRR values of subscriptions that were active on t
 ### Manual Payments
 Customers that are paying manually are collected from this spreadsheet.
 
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_A7874576844CDF374224F87FB64E6AF9475B7AFD2B3CC88B459C0D49B853AAC2_1533224909432_Screen+Shot+2018-08-02+at+11.48.16+AM.png)
+![](https://user-images.githubusercontent.com/1682202/44081591-5e338e7e-9faf-11e8-8320-0e2127c6e382.png)
 
 
 [This R script](https://github.com/bufferapp/manual-payments/blob/master/manual_payments.R) processes the data. For any given date, we check to see if there is a paid invoice that includes the date in question. If so, we’ll include the MRR amount of that customer’s invoice.
