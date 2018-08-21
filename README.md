@@ -15,8 +15,9 @@ _Get all setup to work on Buffer locally_
 ### Team Specific
 * [Data Team](/teams/data/README.md)
 * [Account Management](/teams/account-management/README.md)
-* [Publish](/teams/publish)
+* [Publish](/teams/publish/README.md)
 * [Mobile](/teams/mobile/README.md)
+* [Systems](/teams/systems/README.md)
 
 ### Engineering Leadership
 * [How Engineering Management Works at Buffer](https://github.com/bufferapp/README/tree/master/engineering-management)
