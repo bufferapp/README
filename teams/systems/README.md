@@ -1,6 +1,10 @@
 # Systems 
 
-## Docker Hub
+## How To :memo:
+
+* [Tracing Requests Without Tracing](how-to/do-tracing-without-tracing.md)
+
+## Docker Hub :whale:
 
 We store all of the `bufferapp` docker images in docker hub. To push and pull images we have two different accounts:
 
