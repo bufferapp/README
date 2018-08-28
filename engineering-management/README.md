@@ -4,7 +4,7 @@ At Buffer all Managers should follow the principles of Stewardship and sheperdin
 **Subpages:**
 - [1-1s](./one-on-ones.md)
 - [Skip Level 1-1s](./skip-levels.md)
-- [Career Path Framework](./e/career-path-framework.md)
+- [Career Path Framework](./career-path-framework.md)
 - [Manager Readme](./manager-readme.md)
 
 ## Core Accountabilities of Engineering Managers
