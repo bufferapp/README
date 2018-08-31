@@ -1,0 +1,20 @@
+#!/bin/sh
+# To skip the checks, run with the --no-verify argument
+
+./gradlew clean compileGooglePlayReleaseUnitTestSources
+
+TEST_RESULT=$?
+if [ $TEST_RESULT -ne 0 ]; then
+ echo “failed to run $TEST_CMD
+ exit 1
+fi
+
+./gradlew assembleAndroidTest
+
+BUILD_RESULT=$?
+if [ $BUILD_RESULT -ne 0 ]; then
+ echo “failed to run $BUILD_CMD
+ exit 1
+fi
+
+exit 0
