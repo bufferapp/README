@@ -30,6 +30,7 @@ _The web app at buffer.com/app, API, static pages, and more!_
 * [Deployments](/deployments.md)
 * [Deployments for `buffer-web`](https://github.com/bufferapp/buffer-web/blob/master/docs/deploy.md)
 * [PHP Guidelines](https://github.com/bufferapp/buffer-web/blob/master/docs/php-guide.md) — Great doc by @josem on writing PHP in `buffer-web`
+* [PHP Testing](https://github.com/bufferapp/buffer-web/blob/master/docs/php-testing.md)
 * [Feature Flips](https://github.com/bufferapp/buffer-web/blob/master/docs/release-feature.md)
 * ️[buffer-web workers in k8s](/buffer-web-workers-kubernetes.md)
 * ️[Lifecycle of an update](https://paper.dropbox.com/doc/Lifecycle-of-an-update-4rUM5QNLWO4MpNimFpUPy)
