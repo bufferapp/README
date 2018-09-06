@@ -53,10 +53,10 @@ deploy:
 
 4. Create a Github build trigger from the [Cloud Build Console](https://console.cloud.google.com/cloud-build/triggers?project=buffer-data&authuser=0) for the buffer-data project. Make sure to only match on the `master` branch and specify to use a `cloudbuild.yaml` file.
 
-![](/images/cb-trigger-step1.png)
+![](images/cb-trigger-step1.png)
 
-![](/images/cb-trigger-step2.png)
+![](images/cb-trigger-step2.png)
 
-![](/images/cb-trigger-step3.png)
+![](images/cb-trigger-step3.png)
 
 5. That's it! Pushing to master should now build a Docker image of your app, push it to Google's container registry and deploy a new version of the app to Apollo. To view the result of all our builds, head to the [build history page](https://console.cloud.google.com/cloud-build/builds?authuser=0&project=buffer-data).
