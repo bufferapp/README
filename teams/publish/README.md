@@ -9,3 +9,7 @@ Buffer Publish is Buffer's new dashboard with a focus on one thing; managing and
 Production URL: https://publish.buffer.com
 
 Documentation: https://github.com/bufferapp/buffer-publish/blob/master/README.md
+
+#### Runbooks
+
+* [Update workers](/runbooks/update-workers.md)
