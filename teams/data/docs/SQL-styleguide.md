@@ -71,6 +71,16 @@ A great example of how to utilize CTEs to compartmentalize logic is in this exam
       select *
       from step3
 
+## Using [dbt](https://www.getdbt.com)
+
+Take a look at the [`dbt` documentation best practices](https://docs.getdbt.com/v0.11/docs/best-practices). We also try to stick to the following conventions inspired by [Fishtown Analytics](https://github.com/fishtown-analytics/corp/blob/master/dbt_coding_conventions.md):
+
+- Only base models should select from source tables / views
+- Only a single base model should be able to select from a given source table / view.
+- Base models should be placed in a base/ directory
+- Base models should perform all necessary data type casting
+- Base models should perform all field naming to force field names to conform to standard field naming conventions
+
 ## Resources
 
 The following posts and resources have influenced our style guide (we have selectively used a combinaiton of elements from each):
