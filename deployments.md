@@ -29,9 +29,11 @@ Buffer's current main codebase is structured as a monolith. Therefore it can be 
 
 * `web`
 * `api`
-* `utils`
-* ~~`utils-updates`~~ (DEPRECATED: The `update` workers are in Kubernetes now, [see here](https://github.com/bufferapp/README/blob/master/buffer-web-workers-kubernetes.md#production-deployments).)
-* `cron`
+* ~~`utils`~~ (DEPRECATED: All workers are in Kubernetes now, [see here](https://github.com/bufferapp/README/blob/master/buffer-web-workers-kubernetes.md##deploying-workers-or-crons-to-kubernetes).)
+* ~~`utils-updates`~~ (DEPRECATED: The `update` workers are in Kubernetes now, [see here](https://github.com/bufferapp/README/blob/master/buffer-web-workers-kubernetes.md##deploying-workers-or-crons-to-kubernetes).)
+* `cron` ( for `cron updates` and  `cron analytics`, [see here](https://github.com/bufferapp/README/blob/master/buffer-web-workers-kubernetes.md##deploying-workers-or-crons-to-kubernetes))
+
+
 
 The command currently accepts only a single environment at a time.
 
