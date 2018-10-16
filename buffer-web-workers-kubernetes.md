@@ -1,4 +1,4 @@
-# `buffer-web` workers in Kubernetes
+# `buffer-web` workers and cron in Kubernetes
 
 We are transitionning `buffer-web` utils workers to k8s (Kubernetes). Here what you'll need to know to make changes to those workers.
 
