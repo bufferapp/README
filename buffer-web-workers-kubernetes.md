@@ -38,7 +38,14 @@ Team members to contact for more information:
 | weekly-email-digest | worker-eweekly-email-digestmail | Send weekly email stats to our users
 
 
-## Deploying workers to kubernetes
+## List of crons in k8s
+| Cron name | deployment key | Description|
+| --- | --- | --- |
+| queue-analytics | cron-analytics | Send all due analytics to the analytics queue
+| queue-scheduled-updates | cron-updates | Send all due updates to the sqs updates queue (The update workers will process the queue later on)
+
+
+## Deploying workers or crons to kubernetes
 Take the deployment key [of the worker](#list-of-workers-in-k8s) you want to target, and do:
 
 ```
