@@ -8,6 +8,7 @@ Team members to contact for more information:
 ## Contents
 
 * [List of workers in k8s](#list-of-workers-in-k8s)
+* [List of crons in k8s](#list-of-crons-in-k8s)
 * [Deploy workers/crons to k8s](#deploying-workers-or-crons-to-kubernetes)
 * [Architecture](#architecture)
 * [Code specific to k8s](#code-specific-to-k8s)
@@ -46,8 +47,8 @@ Team members to contact for more information:
 
 
 ## Deploying workers or crons to kubernetes
-Take the deployment key [of the worker](#list-of-workers-in-k8s) you want to target, and do:
 
+Take the deployment key [of the worker](#list-of-workers-in-k8s) or [crons](#list-of-crons-in-k8s) you want to target, and do:
 ```
     @bufferbot servicedeploy [deployment key]
 ```
