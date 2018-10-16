@@ -8,6 +8,7 @@ Team members to contact for more information:
 ## Contents
 
 * [List of workers in k8s](#list-of-workers-in-k8s)
+* [Deploy workers to k8s](#deploying-workers-to-kubernetes)
 * [Architecture](#architecture)
 * [Code specific to k8s](#code-specific-to-k8s)
 * [Run k8s workers locally](#run-k8s-workers-locally)
@@ -16,17 +17,43 @@ Team members to contact for more information:
 ## List of workers in k8s
 | Worker name | deployment key | Description|
 | --- | --- | --- |
-| update | worker-update | Use to send updates from our users
+| analytics | worker-analytics | Update analytics
 | elasticsearch-indexer | worker-elasticsearch-indexer | Index profiles/users/updates in elasticsearch
-| followers-backfill | worker-followers-backfill | Backfill follower counts in Mongo
+| email | worker-email | ???
+| gnip analytics | worker-gnip-analytics | ???
 | link | worker-link | increment the buffer button
-| patch-records | worker-patch-records | "patch" the image fields for updates with the correct data structure
+| patch-records | worker-patch-record | "patch" the image fields for updates with the correct data structure
+| picture | worker-picture | Process images
+| push | worker-push | ???
+| quick-analytics | worker-quick-analytics | Update analytics
+| s3-cleanup | worker-s3-cleanup | ???
+| service | worker-service | ???
 | signup | worker-signup | Add complimentary information to user after the signup process
+| stripe-webhook | worker-stripe-webhook | ???
 | tweet-backfill | worker-tweet-backfill | ?
 | twitter-friends | worker-twitter-friends | Index in the twitter friend elasticsearch cluster
+| update | worker-update | Use to send updates from our users
+| update-migration | worker-update-migration | ???
 | user-cleanup | worker-user-cleanup | clean users information after they leave buffer
+| weekly-email-digest | worker-eweekly-email-digestmail | Send weekly email stats to our users
 
-All other workers in utils will be migrated soon.
+
+## Deploying workers to kubernetes
+Take the deployment key [of the worker](#list-of-workers-in-k8s) you want to target, and do:
+
+```
+    @bufferbot servicedeploy [deployment key]
+```
+
+For example to deploy to the update worker:
+```
+    @bufferbot servicedeploy worker-update
+```
+
+Then you can check the workers has been properly deployed by checking the age of the worker:
+```
+    kubectl get pods -n workers
+```
 
 ## Architecture
 
