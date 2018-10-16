@@ -8,7 +8,7 @@ Team members to contact for more information:
 ## Contents
 
 * [List of workers in k8s](#list-of-workers-in-k8s)
-* [Deploy workers to k8s](#deploying-workers-to-kubernetes)
+* [Deploy workers/crons to k8s](#deploying-workers-or-crons-to-kubernetes)
 * [Architecture](#architecture)
 * [Code specific to k8s](#code-specific-to-k8s)
 * [Run k8s workers locally](#run-k8s-workers-locally)
