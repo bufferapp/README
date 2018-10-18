@@ -19,6 +19,9 @@ _Get all setup to work on Buffer locally_
 * [Mobile](/teams/mobile/README.md)
 * [Systems](/teams/systems/README.md)
 
+### Seeking Advice & Input
+* [How the Architecture Review process works](https://github.com/bufferapp/README/blob/master/architecture-review.md) 
+
 ### Engineering Leadership
 * [How Engineering Management Works at Buffer](https://github.com/bufferapp/README/tree/master/engineering-management)
 * [(All-Buffer)Code of Conduct](https://github.com/bufferapp/code-of-conduct)
