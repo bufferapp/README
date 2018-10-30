@@ -20,7 +20,7 @@ To get started on local development and testing:
 4. **Install Packages and Bootstrap**
     ```bash
     $ cd ~/buffer-dev  # Or wherever yours is located
-    $ docker exec -it bufferdev_buffer-login_1 npm install # Will run npm install using the npm version of the Docker container and not your machine
+    $ docker exec -it bufferdev_login_1 npm install # Will run npm install using the npm version of the Docker container and not your machine
 
     $ cd ~/buffer-dev/buffer-account  # Or wherever yours is located
     $ yarn
