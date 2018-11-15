@@ -10,7 +10,7 @@ This is intended to share how explicit CTA tracking works, for both signups and 
     * For the CTA in the Publish app, when adding a Pinterest profile as a Free user
     * `publishApp-manageProfiles-connectProfiles-pinterest-1`
 * Convention framework for determining string values:
-[product]-[general section of app]-[detailed location in app section]-[unique CTA name related to what action it triggers]-[version # of CTA, manually incremented each time change made]
+[product]-[general section of app]-[detailed location in app section]-[CTA name related to what action it triggers]-[version # of CTA, manually incremented each time change made]
     * Use hyphen `-` as the delimiter
     * No underscores, spaces, or other non-alphanumeric characters in the string
     * If 2+ words are needed for a step of the taxonomy, use camelCase
@@ -47,7 +47,7 @@ The first step is determining where the CTA is located and what it will trigger.
         * Marketing page:
         [website]-[page path]-[page section]-[unique CTA name related to what action it triggers]-[version # of CTA, manually incremented each time change made]
         * In app:
-        [product]-[general section of app]-[detailed location in app section]-[unique CTA name related to what action it triggers]-[version # of CTA, manually incremented each time change made]
+        [product]-[general section of app]-[detailed location in app section]-[CTA name related to what action it triggers]-[version # of CTA, manually incremented each time change made]
         * Other specifics for both marketing pages and in app:
             * Use `-` as the delimiter, and no other non-alphanumeric characters
             * No spaces in the string
