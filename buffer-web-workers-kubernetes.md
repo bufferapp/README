@@ -21,7 +21,7 @@ Team members to contact for more information:
 | analytics | worker-analytics | Update analytics
 | elasticsearch-indexer | worker-elasticsearch-indexer | Index profiles/users/updates in elasticsearch
 | email | worker-email | ???
-| gnip analytics | worker-gnip-analytics | ???
+| gnip analytics | worker-gnip-analytics | Process GNIP analytics for a given twitter profile
 | link | worker-link | increment the buffer button
 | patch-records | worker-patch-record | "patch" the image fields for updates with the correct data structure
 | picture | worker-picture | Process images
