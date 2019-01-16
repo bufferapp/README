@@ -30,7 +30,7 @@ To get started on local development and testing:
 5. **Start up the docker containers**
     ```bash
     $ cd ~/buffer-dev # Or wherever yours is located
-    $ ./dev up session-service-dev core-authentication-service-dev login-dev account
+    $ ./dev up session-service-dev authentication-service-dev login-dev account
     # if you want to start the web dashboard locally you add `web` to the above command after `account`
    ```
     **Is the order important?**
@@ -39,11 +39,11 @@ To get started on local development and testing:
 
    **What it `dev` mode?**
 
-   Appending `-dev` to a service name (i.e, `ore-authentication-service-dev`) will run your local code rather than the production docker container.
+   Appending `-dev` to a service name (i.e, `authentication-service-dev`) will run your local code rather than the production docker container.
 
    **Which services have a dev mode?**
 
-   Only `login`, `core-authentication-service` and `session-service` can be started in dev or production mode. All other services will run the local code by default.
+   Only `login`, `authentication-service` and `session-service` can be started in dev or production mode. All other services will run the local code by default.
 
    **When to use dev mode?**
 
@@ -86,7 +86,7 @@ A service responsible for managing sessions in redis and verifying that a sessio
 
 Production URL: N\A - internal service
 
-Documentation: https://github.com/bufferapp/session-service/blob/master/README.md
+Documentation: https://github.com/bufferapp/core-session-service/blob/master/README.md
 
 Dashboard: https://app.datadoghq.com/screen/218648/session-service?page=0&is_auto=false&from_ts=1533074820000&to_ts=1533078420000&live=true
 
