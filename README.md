@@ -1,3 +1,9 @@
+# ⚠️⚠️ DEPRECATED ⚠️⚠️
+
+Please go to the [Engineering wiki in Notion](https://www.notion.so/buffer/Engineering-Wiki-f34142d290304c35bebadf76cc9cc89e).
+
+---
+
 # Buffer Engineering Wiki
 
 Welcome, friend! 👋 This is the Buffer Engineering Wiki. It's is a living, evolving project that exists to guide you through all the info you need to know to be a happy and productive Buffer Engineer™.
